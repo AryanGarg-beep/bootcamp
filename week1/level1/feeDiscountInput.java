@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 public class feeDiscountInput {
   public static void main(String[] args) {
-    int fee = 125000;
-    int discountPercent = 10;
-
+    int fee, discountPercent;
     Scanner input = new Scanner(System.in);
     fee = input.nextInt();
     discountPercent = input.nextInt();
