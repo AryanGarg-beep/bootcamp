@@ -9,6 +9,7 @@ public class SubtractWithoutMinus {
 
     sum = ~number1 + number2 + 1;
     System.out.println(-sum);
+    System.out.println(~number1);
 
   }
 }
