@@ -1,4 +1,4 @@
-public class calcProfitLoss {
+public class CalcProfitLoss {
   public static void main(String[] args) {
     int costPrice = 129, sellPrice = 191, profit = sellPrice - costPrice;
     double profitPercentage = profit / (double) costPrice * 100.0;
