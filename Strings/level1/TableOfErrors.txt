@@ -1,0 +1,35 @@
+============================================================
+            Java Runtime Exception Recap Table
+============================================================
+
+#   Exception Name                When It Happens
+--  ----------------------------  -----------------------------------------------
+1.  NullPointerException         Calling a method or accessing a property on a 
+                                 null object.
+                                 Meaning: You tried to use something that doesn’t exist.
+
+2.  StringIndexOutOfBoundsException
+                                 Accessing a character in a string using an
+                                 invalid index.
+                                 Meaning: You asked for a letter that’s not in the string.
+
+3.  IllegalArgumentException     Giving illegal/invalid arguments to a method
+                                 (e.g., substring(5, 2)).
+                                 Meaning: The method can't work with the values you gave.
+
+4.  NumberFormatException        Trying to convert a non-numeric string into a
+                                 number using Integer.parseInt().
+                                 Meaning: This string doesn’t look like a number.
+
+5.  ArrayIndexOutOfBoundsException
+                                 Accessing an array with an index that doesn’t exist
+                                 (e.g., index too large or too small).
+                                 Meaning: You tried to access a box that isn’t in the array.
+
+6.  ArithmeticException          (Not used in your code, but very common)
+                                 Happens when dividing by zero or doing invalid
+                                 math operations.
+                                 Meaning: Math error like divide by zero.
+
+============================================================
+
