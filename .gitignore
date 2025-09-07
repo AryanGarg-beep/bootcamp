@@ -5,3 +5,7 @@
 
 
 
+.ssh/
+gitKey
+gitKey.pub
+
