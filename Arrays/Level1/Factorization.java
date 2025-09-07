@@ -32,4 +32,3 @@ public class Factorization {
       System.out.print(factors[i] + " ");
     }
   }
-}

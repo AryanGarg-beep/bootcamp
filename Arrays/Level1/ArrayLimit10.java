@@ -16,7 +16,6 @@ public class ArrayLimit10 {
         break;
       }
     }
-    input.close();
 
     System.out.println("The array is: ");
     for (int i : arr) {
@@ -26,5 +25,6 @@ public class ArrayLimit10 {
       arr[0] += arr[i];
     }
     System.out.println("\nThe sum of the elements is " + arr[0]);
+    input.close();
   }
 }

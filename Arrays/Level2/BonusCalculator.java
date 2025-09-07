@@ -19,6 +19,7 @@ public class BonusCalculator {
 
       while (true) {
         System.out.print("Enter years of service for employee " + (i + 1) + ": ");
+        System.out.println("Hello");
         years[i] = input.nextDouble();
         if (years[i] >= 0)
           break;
